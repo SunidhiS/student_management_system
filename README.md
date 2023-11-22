@@ -18,13 +18,13 @@ This project is a simple student management system built using Node.js and Expre
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/student-management-system.git
+   git clone https://github.com/SunidhiS/student_management_system.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd student-management-system
+   cd student_management_system
    ```
 
 3. Install dependencies:
@@ -36,7 +36,7 @@ This project is a simple student management system built using Node.js and Expre
 4. Run the server:
 
    ```bash
-   npm start
+   npm run server
    ```
 
 The server will start on `http://localhost:5000`.
