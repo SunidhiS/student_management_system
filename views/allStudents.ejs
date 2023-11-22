@@ -1,0 +1,10 @@
+<% if (students.length) { %>
+<h1>All Students data</h1>
+<% students.forEach(student => { %>
+<h3>Student Id: <%= student.studentId %></h3>
+<p>Student Name: <%= student.StudentName %></p>
+<p>Student GPA: <%= student.StudentGPA %></p>
+<br />
+<% }); %> <% } else { %>
+<p>No Students Available</p>
+<% } %>
